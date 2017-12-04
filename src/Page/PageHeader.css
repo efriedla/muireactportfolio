@@ -1,0 +1,28 @@
+.pageHeader{
+      background-color: #160b44;
+      color: #33b5e5; 
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+      height: 600px;
+      background-image: url('https://static.pexels.com/photos/306344/pexels-photo-306344.jpeg');
+     
+      min-height: 130px;
+      /* Create the parallax scrolling effect */
+      /* background-attachment: fixed; */
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+}
+
+
+@media only screen and (min-width: 601px) {
+    min-height: 500px;
+}
+@media only screen and (min-width: 769px){
+
+}
+.pad-up {
+    padding-top: 40px;
+  }

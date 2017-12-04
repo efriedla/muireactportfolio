@@ -1,0 +1,38 @@
+.pageCardAvitar{
+    color:white;
+    border: 2px pink solid;
+    padding: 15px;
+}
+.avitar {
+    /* background-color: #160b44;*/
+    color: #80cfec; 
+   
+    padding-top:100%;
+    width: 100%;
+    height: auto;
+    background-image: url('/images/liz.jpg');
+    
+    background-size: 100% 100%;
+}
+.pageCardContact{
+    color:white;
+    border: 2px pink solid;
+    padding: 15px;
+    background: lightblue;
+}
+.fa-linkedin-square{
+    color: rgb(12, 32, 211);
+    font-size:50px;
+}
+.fa-github {
+    color: rgb(5, 8, 8);
+    font-size:50px;
+}
+.resume {
+    color: rgb(19, 18, 6);
+    border: 2px pink solid;
+    text-outline: 2px 2px #ffe600;
+    font-size:50px;
+    font-family: 'Playfair Display', serif;
+    
+}

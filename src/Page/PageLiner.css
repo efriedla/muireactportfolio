@@ -1,0 +1,24 @@
+.pageLiner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.pageLiner li {
+    padding: 8px;
+    /* margin-bottom: 7px; */
+    display: inline;
+    text-align: center;
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134fd3, #c94b4bc9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-outline: 20px 20px #271212;
+}
+.pageLiner li:hover {
+    background: #c94b4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4b134fc7, #c94b4bc0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}

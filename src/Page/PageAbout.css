@@ -1,0 +1,26 @@
+.pageAbout {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 15px;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+.pageAbout h2 {
+    color: rgb(230, 233, 48);
+    font-size: 40px;
+   
+}
+.pageAbout p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(29, 29, 17, 0.226);
+   padding: 20px;
+}
+.pageAbout a {
+    color: rgb(252, 191, 24);
+    text-align: center;
+    /* margin-left: 50%;
+    padding: 0; */
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    
+}

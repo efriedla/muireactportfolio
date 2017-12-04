@@ -1,0 +1,22 @@
+
+.parallax {
+    /* The image used */
+    background-image: url('https://static.pexels.com/photos/335253/pexels-photo-335253.jpeg');
+    
+    /* Full height */
+    height: 100%; 
+    min-height: 130px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: alpha(opacity=60);
+}
+@media only screen and (min-width: 601px){
+  
+    
+}
+@media only screen and (min-width: 769px){
+   
+}

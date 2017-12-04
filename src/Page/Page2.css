@@ -1,0 +1,8 @@
+.pageCardSkills{
+    min-height: 739px;
+    border: 2px pink solid;
+
+}
+* {
+    box-sizing: border-box;
+  }
