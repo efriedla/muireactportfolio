@@ -1,6 +1,7 @@
 import React from 'react';
 import './Page1.css';
 import '../Responsive.css';
+import LazyLoad from 'react-lazy-load';
 
 export default class Page1 extends React.Component {
     render() {

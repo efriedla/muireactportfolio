@@ -1,6 +1,7 @@
 import React from 'react';
 import './Page3.css';
 import '../Responsive.css';
+import LazyLoad from 'react-lazy-load';
 
 export default class Page3 extends React.Component {
     render() {
@@ -9,10 +10,15 @@ export default class Page3 extends React.Component {
             
             
                 <div className=' col-12'>
+           
               
+             
                 <div >
+                  <LazyLoad>
                     <h2 className='titleTimeline'>Timeline</h2>
+                  </LazyLoad>
                 <div className="timeline">
+                  <LazyLoad>
                     <div className="container left">
                       <div className="content">
                         <h2>December 2017</h2>
@@ -23,6 +29,8 @@ export default class Page3 extends React.Component {
                         </ul>
                       </div>
                     </div>
+                  </LazyLoad>
+                  <LazyLoad>
                     <div className="container right">
                       <div className="content">
                         <h2>November 2017</h2>
@@ -34,6 +42,8 @@ export default class Page3 extends React.Component {
                         </ul>
                       </div>
                     </div>
+                  </LazyLoad>
+                  <LazyLoad>
                     <div className="container left">
                       <div className="content">
                         <h2>October 2017</h2>
@@ -44,6 +54,8 @@ export default class Page3 extends React.Component {
                         </ul>
                       </div>
                     </div>
+                  </LazyLoad>
+                  <LazyLoad>
                     <div className="container right">
                       <div className="content">
                         <h2>September 2017</h2>
@@ -54,18 +66,23 @@ export default class Page3 extends React.Component {
                         </lu>
                       </div>
                     </div>
+                  </LazyLoad>
+                  <LazyLoad>
                     <div className="container left">
                       <div className="content">
                         <h2>Augest 2017</h2>
                         <p>Basic HTML & CSS</p>
                       </div>
                     </div>
+                  </LazyLoad>
+                  <LazyLoad>
                     <div className="container right">
                       <div className="content">
                         <h2>2007</h2>
                         <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
                       </div>
                     </div>
+                  </LazyLoad>
                   </div>
                 </div>
             </div>
