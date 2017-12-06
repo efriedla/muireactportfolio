@@ -19,7 +19,7 @@ export default class Page extends React.Component {
         return (
             <div >     
                  <div className='staticHeader parallax'>
-                    <p className="text line-1 anim-typewriter col-5">
+                    <p className="text ">
                         My name is Elizabeth Friedlandand, and I am a full Developer
                     </p>
                  </div>
