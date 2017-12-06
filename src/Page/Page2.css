@@ -1,8 +1,22 @@
 .pageCardSkills{
     min-height: 739px;
-    border: 2px pink solid;
+    /* border: 2px pink solid; */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.774);
 
 }
 * {
     box-sizing: border-box;
+  }
+ .pageCardSkills ul {
+    list-style-type: none;
+  }
+  .pageCardSkills li {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  .pageCardSkills li:nth-child(even) {
+    
+    background: rgba(255, 255, 255, 0.795);
   }

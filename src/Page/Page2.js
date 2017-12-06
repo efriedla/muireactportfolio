@@ -11,6 +11,8 @@ export default class Page2 extends React.Component {
                 <div className='pageCardSkills'>
      
                 <h1>Skills</h1>
+                <hr  />
+               
                     <ul>
                         <li>HTML</li>
                         <li>CSS3</li>
